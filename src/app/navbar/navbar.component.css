@@ -1,0 +1,53 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.navbar {
+  background-color: rgb(17, 1, 196);
+  background-image: linear-gradient(to bottom, rgb(17, 1, 196), rgba(0,0,0,0.8));
+  background-position: top left;
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+}
+:root {
+  --um:#1a186e;
+  --dois:rgb(255, 0, 0);
+  --tres:rgb(255, 255, 255);
+}
+
+.navbar-toggler {
+background-color: white !important; }
+
+.navbar-collapse li a:hover {
+  border-style: outset ;
+  border-color: white;
+}
+
+/* Em Andamento */
+.Andamento tr {
+display: inline-block;
+}
+.Andamento a {
+text-decoration: none;
+}
+
+h1 {
+color: var(--um);
+font-family: 'Pattaya', sans-serif;
+}
+h2,h3 {
+color: var(--dois);
+font-family: 'Arial black', Times , sans-serif;
+}
+
+.navbar-itens {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
