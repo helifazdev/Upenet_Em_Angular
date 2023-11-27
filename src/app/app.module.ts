@@ -10,6 +10,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './carousel/carousel.component';
 import { EmAndamentoComponent } from './em-andamento/em-andamento.component';
 import { FooterComponent } from './footer/footer.component';
+import { ArquivoComponent } from './arquivo/arquivo.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     CarouselComponent,
     EmAndamentoComponent,
-    FooterComponent
+    FooterComponent,
+    ArquivoComponent
   ],
   imports: [
     BrowserModule,
